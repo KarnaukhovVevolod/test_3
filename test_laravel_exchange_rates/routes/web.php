@@ -19,7 +19,4 @@ Route::get('/', function () {
 */
 Route::get('/','App\Http\Controllers\MainController@index');
 Route::post('/graphic','App\Http\Controllers\MainController@graphic');
-/*
-Route::get('/about', function () {
-    return view('about');
-});*/
+
